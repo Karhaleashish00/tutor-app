@@ -1,0 +1,120 @@
+.navigation{
+    width: 1920 Hug;
+    height: 148 hug;
+}
+
+/* This css classes are for Top Nav in Navigation*/
+.top-nav{
+    width: 1920 Hug;
+    height: 52 Hug;
+    background-color: #1D2026;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-links ul li{
+    padding: 8px 16px;
+}
+
+.nav-links ul li a{
+    color: #8C94A3;
+    text-decoration: none;
+}
+
+.lang ul{
+    display: flex;
+    list-style: none;
+}
+
+.lang ul li{
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.lang ul li select{
+    background-color: #1D2026;
+    border: #1D2026;
+    color: #8C94A3;
+}
+/* Top Navigation CSS Ends Here */
+
+
+/* This css classes are for 1st Nav in Navigation*/
+.first-nav{
+    display: flex;
+    justify-content: space-between;
+    padding:12px 10px;
+    border: 0.1px solid #E9EAF0;
+}
+
+.browsers{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.logo{
+    display: flex;
+    margin-right: 40px;
+}
+
+.logo h1{
+    text-shadow: #1D2026;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;   
+}
+
+.browser select{
+    width: 200px;
+    height: 48px;
+    outline: none;
+    margin-right: 5px;
+    border: 0.1px solid #E9EAF0;
+    padding: 10px;
+}
+
+.search-bar{
+    display: flex;
+    border: 0.1px solid #E9EAF0;
+    padding: 5px;
+}
+
+.search-bar .inputbox input{
+    height: 24px;
+    border-style: none;
+}
+.search-bar .inputbox input:focus{
+    outline: none;
+}
+.inputbox{
+    align-self: center;
+}
+.search-bar img{
+    width: 20px;
+    height: 20px;
+    margin: 8px 10px 0px 10px;
+}
+
+
+.log-and-reg{
+    display: flex;
+    padding: 10px;   
+}
+
+.log-and-reg img{
+    width: 24px;
+    height: 24px;
+    margin:12px 5px 0px 5px;
+}
+
+.btns{
+    display: flex;
+}

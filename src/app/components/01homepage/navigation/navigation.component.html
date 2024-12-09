@@ -1,0 +1,71 @@
+<div class="wrapper">
+    <div class="frame">
+        <div class="navigation">
+            <div class="top-nav">
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li> 
+                        <li>
+                            <a href="">Courses</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li>
+                            <a href="">Become an Instructor</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <ul>
+                        <li>
+                           <select name="country" id="country">
+                                <option *ngFor="let country of countries" value="country">{{country}}</option>
+                           </select>
+                        </li>
+                        <li>
+                            <select name="lang" id="lang">
+                                <option *ngFor="let lang of lang" value="lang">{{lang}}</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- This is 1st navigation after top navigation -->
+            <div class="first-nav">
+                <div class="browsers">
+                    <div class="logo">
+                        <img src="../../../assets/GraduationCap.png" alt="edu-logo">
+                        <h1 class="title">E-tutor</h1>
+                    </div>
+                    <div class="browser">
+                        <select name="browser" id="browser">
+                            <option value="Browser">Browser</option>
+                        </select>
+                    </div>
+                    <div class="search-bar">
+                        <img src="../../../assets/MagnifyingGlass.png" alt="Magnifying Glass">
+                        <div class="inputbox">
+                            <input type="text" placeholder="What do you want learn...">
+                        </div>
+                    </div>
+                </div>
+                <div class="log-and-reg">
+                    <img src="../../../assets/Bell.png" alt="bell">
+                    <img src="../../../assets/Heart.png" alt="heart">
+                    <img src="../../../assets/ShoppingCartSimple.png" alt="cart">
+                    <div class="btns">
+                        <button class="create-account-btn white-btn">Create Account</button>
+                        <button class="sign-in-btn orange-btn">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

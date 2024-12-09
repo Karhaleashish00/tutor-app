@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.wrapper{
+    width: 1920 Hug;  
+}
+
+.frame{
+    width: 1920 Hug;
+}
+
+
+.create-account-btn{
+  width: 168px;
+  height: 48px;
+  border: none;
+  margin-right: 10px;
+}
+
+.white-btn{
+  background-color: #FFEEE8;
+  color: #FF6636;
+}
+
+.sign-in-btn{
+  width: 100px;
+  height: 48px;
+  border: none;
+}
+
+.orange-btn{
+  background-color: #FF6636;
+  color: #FFFFFF;
+}
+
+.secondary-bg{
+  background-color: #EBEBFF;
+}
+.warming-bg{
+  background-color: #FFF2E5;
+}
+.gray-light-bg{
+  background-color: #F5F7FA;
+}
+.success-light-bg{
+  background-color: #E1F7E3;
+}
+.error-bg{
+  background-color: #FFF0F0;
+}

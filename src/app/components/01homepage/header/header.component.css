@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+}
+
+.header-content-div{
+    width: 648px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px; 
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.header-content-div h1{
+    width: 500px;
+    height: 148px;
+    font-size:60px;
+}
+
+.header-content-div p{
+    width: 500px;
+    height: 64px;
+    font-size: medium;
+}
+
+.header-img img{
+    width: 700px;
+    height: 410px;
+}
